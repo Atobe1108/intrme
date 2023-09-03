@@ -1,0 +1,109 @@
+body {
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+h1 {
+  font-size: 100px;
+  margin-bottom: 0;
+  margin-top: 20px;
+  text-align: center;
+  background-image: linear-gradient(45deg, #fff94d, #ffae00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+p {
+  text-align: center;
+}
+nav {
+    
+    background-size: cover;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px); 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+.section {
+    background-color: #000000;
+    margin: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+  transition: all 0.3s ease;
+  margin: 0 auto;
+}
+
+.logo {
+    text-align: center;
+}
+
+.contact-box {
+    margin: 20px;
+    font-size: 30px;
+    background-color: #0d0d0d;
+    border-radius: 10px; 
+    padding: 10px; 
+    text-align: center; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+i {
+  font-size: 70px;
+}
+.contact-box:hover {
+    background-color: #1c1c1c;
+}

@@ -1,31 +1,31 @@
 a {
-  color: white; 
-  text-decoration: none; 
+  color: white;
+  text-decoration: none;
 }
 
 body {
-    color: white;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #000000;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #000000;
 }
 title {
-    line-height: 1.2;
+  line-height: 1.2;
 }
 .subtitle {
   margin-top: 2rem;
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-    color: #9ca3af;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #9ca3af;
 }
 #container {
-    padding-left: 1.95rem;
-    padding-right: 1.5rem;
+  padding-left: 1.95rem;
+  padding-right: 1.5rem;
 }
 @media (min-width: 575px) {
   #container {
-      padding-left: 2.5rem;
-      padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 }
 h1 {
@@ -39,10 +39,10 @@ h1 {
   padding-top: 4rem;
 }
 @media (min-width: 768px) {
-#about {
+  #about {
     padding-bottom: 8rem;
     padding-top: 8rem;
-}
+  }
 }
 .gradation {
   background-image: linear-gradient(45deg, #fff94d, #ffae00);
@@ -51,80 +51,81 @@ h1 {
   color: transparent;
 }
 nav {
-    border-bottom: 1px solid #1f2937;
-    background-size: cover;
-    padding: 20px 0;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    backdrop-filter: blur(10px); 
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+  border-bottom: 1px solid #1f2937;
+  background-size: cover;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+  display: inline;
+  margin-right: 20px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #000000;
-    font-weight: bold;
-    transition: color 0.3s ease;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 @media (min-width: 430px) {
-#title {
+  #title {
     font-size: 2.75rem;
     line-height: 2.5rem;
-}
+  }
 }
 @media (min-width: 575px) {
-#title {
+  #title {
     font-size: 3.45rem;
     line-height: 1.2;
-}
+  }
 }
 @media (min-width: 768px) {
-#title {
+  #title {
     font-size: 4.15rem;
     line-height: 1.2;
-}
+  }
 }
 @media (min-width: 575px) {
-.subtitle {
+  .subtitle {
     font-size: 1.25rem;
     line-height: 1.75rem;
-}
+  }
 }
 nav ul li a:hover {
-    color: #ff6600;
+  color: #ff6600;
 }
 
 .section {
-    background-color: #000000;
-    margin: 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #000000;
+  margin: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .project {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .project img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
-
 
 .logo img {
   width: 40px;
@@ -134,38 +135,39 @@ nav ul li a:hover {
 }
 
 .logo {
-    text-align: center;
+  text-align: center;
 }
 
 .contact-box {
-    width: 5rem;
-    margin: 20px;
-    font-size: 30px;
-    background-color: #0d0d0d;
-    border-radius: 10px; 
-    padding: 10px; 
-    text-align: center; 
-    cursor: pointer; 
-    display: flex;
-    flex-direction: column; 
-      justify-content: center;
-    align-items: center;
+  width: 4rem;
+  margin: 20px;
+  font-size: 30px;
+  background-color: #0d0d0d;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .info-container {
   display: flex;
-    -webkit-flex-direction: column;
-    flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
 }
 i {
   font-size: 70px;
 }
 .infocontainer:hover {
-    background-color: #1c1c1c;
+  background-color: #1c1c1c;
 }
 .infocontainer {
-      transition: background-color 0.3s ease; 
-      display: flex;
-      border-radius: 10px; 
+  width: 300px;
+  transition: background-color 0.3s ease;
+  display: flex;
+  border-radius: 10px;
 }
 
 .info-title {
